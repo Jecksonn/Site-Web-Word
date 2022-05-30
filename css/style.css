@@ -1,0 +1,19 @@
+body{
+
+    width: 100%;
+    height:100%;
+}
+
+main{
+
+    width: 980px;
+    float: left;
+    position: relative;
+}
+
+.menu-principal{
+
+    background-color: #252323;
+    height: 60px;
+}
+/* aula parada no minuto 27:51 min de video aula 01*\
