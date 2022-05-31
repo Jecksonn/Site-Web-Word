@@ -5,9 +5,9 @@ body{
 }
 
 main{
-
+   
+    margin: 0 auto;
     width: 980px;
-    float: left;
     position: relative;
 }
 
@@ -15,5 +15,26 @@ main{
 
     background-color: #252323;
     height: 60px;
+    width: 100%;
 }
-/* aula parada no minuto 27:51 min de video aula 01*\
+
+.logo{
+    float: left;
+    padding: 16px;
+    width: 60%;
+    
+}
+
+.redes-sociais ul li{
+    padding-left: 20px; 
+    display: inline-block;
+    list-style: none;
+    float: left;
+}
+
+.redes-sociais{
+
+    width: 25%;
+    float: right;
+    
+}
