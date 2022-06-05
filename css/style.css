@@ -95,6 +95,7 @@ main{
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
+    position: relative;
     
 }
 
@@ -123,21 +124,51 @@ main{
 .col-100{
 
     float: left;
-    position: relative;  
-    width: 870px;
-}
-
-button.slick-prev{
-    font-size: 0px;
-    border: solid 1px white;
-    width: 25px;
-    height: 85px;
-    background-image: url('../imagens/proximo.png'); repeat: none;
-    /*background-color: transparent;*/
-    z-index: 9;
-    background-repeat: no-repeat;
+    width: 1007px;
+    position: relative;
     
 }
 
+.slick-prev{
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  height: 50px;
+  z-index: 9;
+  position: relative;
+  left: 0;
+  top: 118px;
+  background-color: transparent;
+  background-image: url('../imagens/anterior.png');
+  margin-left: 10%;
+  
 
+    
+    
+}
 
+.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 50px;
+    z-index: 9;
+    position: relative;
+    top: -268px;
+    background-color: transparent;
+    background-image: url('../imagens/proximo.png');
+    float: right;
+    margin-right: 10%;
+  
+      
+      
+  }
+
+.slick-slide{
+    position: relative;
+    top: -50px;
+}
+
+.slikers{
+    height: 492.183px;
+}
