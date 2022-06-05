@@ -124,13 +124,19 @@ main{
 
     float: left;
     position: relative;  
+    width: 870px;
 }
 
 button.slick-prev{
     font-size: 0px;
-    border: none;
+    border: solid 1px white;
     width: 25px;
     height: 85px;
-    background-image: url('../imagens/anterior.png');
-
+    background-image: url('../imagens/proximo.png'); repeat: none;
+    /*background-color: transparent;*/
+    z-index: 9;
+    
 }
+
+
+
