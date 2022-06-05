@@ -135,6 +135,7 @@ button.slick-prev{
     background-image: url('../imagens/proximo.png'); repeat: none;
     /*background-color: transparent;*/
     z-index: 9;
+    background-repeat: no-repeat;
     
 }
 
