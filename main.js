@@ -6,5 +6,8 @@ $('.slider-principal').slick({
     adaptiveHeight: false,
     autoplay: true,
     autoplaySpeed: 2000
+    
   });
+
+
 
