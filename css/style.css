@@ -202,6 +202,7 @@ ul.slick-dots li.slick-active{
 .slick-dots button{
     display: none;
     
+    
 }
 
 
@@ -214,6 +215,7 @@ ul.slick-dots li.slick-active{
     left: 43%;
     margin-top: -10%;
     border: 2px;
+    cursor: pointer;
     
     
 }
